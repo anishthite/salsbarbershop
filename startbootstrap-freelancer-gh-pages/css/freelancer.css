@@ -41,7 +41,7 @@ hr.star-light {
 
 hr.star-light:after {
   color: #fff;
-  background-color: #18BC9C;
+  background-color:#18BC9C;
 }
 
 hr.star-dark {
@@ -116,7 +116,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #18BC9C;
+  color: #702900;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
@@ -124,7 +124,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #18BC9C;
+  color: #702900;
 }
 
 #mainNav .navbar-toggler {
@@ -151,11 +151,11 @@ section h2 {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     color: #fff;
-    background: #18BC9C;
+    background: #702900;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #fff;
-    background: #18BC9C;
+    background: #702900;
   }
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;
@@ -197,6 +197,7 @@ header.masthead h2 {
 
 .portfolio {
   margin-bottom: -15px;
+  background-color: rgb(172, 119, 78);
 }
 
 .portfolio .portfolio-item {
@@ -333,11 +334,11 @@ form .row:first-child .floating-label-form-group {
 }
 
 a {
-  color: #18BC9C;
+  color: #702900;
 }
 
 a:focus, a:hover, a:active {
-  color: #128f76;
+  color: #702900;
 }
 
 .btn {
@@ -345,7 +346,8 @@ a:focus, a:hover, a:active {
 }
 
 .bg-primary {
-  background-color: #18BC9C !important;
+  background-image: url(../img/wood.jpg);
+  background-color: rgba(99, 67, 8, 0.63) !important;
 }
 
 .bg-secondary {
@@ -353,7 +355,7 @@ a:focus, a:hover, a:active {
 }
 
 .text-primary {
-  color: #18BC9C !important;
+  color: #702900 !important;
 }
 
 .text-secondary {
@@ -361,13 +363,13 @@ a:focus, a:hover, a:active {
 }
 
 .btn-primary {
-  background-color: #18BC9C;
-  border-color: #18BC9C;
+  background-color: #702900;
+  border-color: #702900;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #128f76;
-  border-color: #128f76;
+  background-color: #70290086;
+  border-color: #70290086;
 }
 
 .btn-secondary {
